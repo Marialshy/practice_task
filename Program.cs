@@ -1,6 +1,6 @@
 ﻿// to create new array (string), each item's length <=3
 Console.WriteLine("Please enter symbols splited by comma");
-string someInput = Convert.ToString(Console.ReadLine());
+string someInput = new string(Convert.ToString(Console.ReadLine()));
 int number = 3;
 string[] arrayA = someInput.Split(',');
 string [] newArray = FillArrayIfChar3(arrayA);
