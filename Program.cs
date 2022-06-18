@@ -20,17 +20,11 @@ string [] FillArrayIfChar3(string [] array)
     string[] arrayNew = new string [array.Length];
     for (int i = 0; i < array.Length; i++)
     {
-        if (Check3Char(array[i], number))
+        if (array[i].Length <= number)
         {
             arrayNew[j] = array[i];
             j++;
         }
     }
     return arrayNew;
-}
-
-bool Check3Char(string charA, int number)
-{
-    if (charA.Length <= number) return true;
-    else return false;
 }
