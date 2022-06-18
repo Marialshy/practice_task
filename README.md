@@ -6,7 +6,7 @@
 
 ### 2. main method:
 
-2.1. fill in newAarray:
+2.1. fill in newArray:
 create newArray (lenght = arrayA.lenght), use counter for it's elements
 
 2.2. cycle "for" to sort out each element of arrayA.
