@@ -8,10 +8,13 @@ PrintArray(newArray);
 
 void PrintArray(string[] array)
 {
+    Console.Write("new Array {");
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write(array[i] + " ");
+        Console.Write(array[i]);
+        if(i<array.Length-1) Console.Write(" ");
     }
+    Console.Write("}");
 }
 
 string [] FillArrayIfChar3(string [] array)
