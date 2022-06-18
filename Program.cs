@@ -1,6 +1,6 @@
 ﻿// для исходного массива сформировать новый, где каждый элемент не длиннее 3х символов
 Console.WriteLine("Please enter symbols splited by comma");
-string someInput = Convert.ToString(Console.ReadLine());
+string someInput = new string (Convert.ToString(Console.ReadLine()));// NB created "string 'string name'" as "new string(value)"
 int number = 3;
 
 string [] newArray = FillArrayIfChar3(someInput);
